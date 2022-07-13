@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RoyalTitleDef[defName="Freeholder"]/changeHeirQuestPoints</xpath>
+    <value><changeHeirQuestPoints>100</changeHeirQuestPoints></value>
+  </Operation>
+</Patch>
