@@ -2,6 +2,50 @@
 <Patch>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RoyalTitleDef[defName="Freeholder"]/changeHeirQuestPoints</xpath>
-    <value><changeHeirQuestPoints>100</changeHeirQuestPoints></value>
+    <value>
+      <changeHeirQuestPoints>500</changeHeirQuestPoints>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RoyalTitleDef[defName="Yeoman"]/changeHeirQuestPoints</xpath>
+    <value>
+      <changeHeirQuestPoints>500</changeHeirQuestPoints>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RoyalTitleDef[defName="Acolyte"]/changeHeirQuestPoints</xpath>
+    <value>
+      <changeHeirQuestPoints>600</changeHeirQuestPoints>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RoyalTitleDef[defName="Knight"]/changeHeirQuestPoints</xpath>
+    <value>
+      <changeHeirQuestPoints>800</changeHeirQuestPoints>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RoyalTitleDef[defName="Praetor"]/changeHeirQuestPoints</xpath>
+    <value>
+      <changeHeirQuestPoints>1100</changeHeirQuestPoints>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RoyalTitleDef[defName="Baron"]/changeHeirQuestPoints</xpath>
+    <value>
+      <changeHeirQuestPoints>1400</changeHeirQuestPoints>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RoyalTitleDef[defName="Count"]/changeHeirQuestPoints</xpath>
+    <value>
+      <changeHeirQuestPoints>1750</changeHeirQuestPoints>
+    </value>
   </Operation>
 </Patch>
